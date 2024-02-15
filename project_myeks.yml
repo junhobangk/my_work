@@ -5,7 +5,7 @@ kind: ClusterConfig
 metadata:
   name: project-myeks
   region: ap-northeast-2
-  version: "1.22"
+  version: "1.23"
  
 # AZ
 availabilityZones: ["ap-northeast-2a", "ap-northeast-2b",  "ap-northeast-2c"]
@@ -43,7 +43,7 @@ managedNodeGroups:
     ssh:
       allow: true
       publicKeyPath: /var/lib/jenkins/.ssh.pub
-    availabilityZones: ["ap-northeast-2a", "ap-northeast-2b", "ap-northeast-2c"]
+    availabilityZones: ap-northeast-2a
     iam:
       withAddonPolicies:
         autoScaler: true
