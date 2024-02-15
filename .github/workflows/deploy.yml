@@ -1,5 +1,0 @@
-# deploy.yml
-
-name: deploy
-
-on: [push]
