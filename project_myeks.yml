@@ -1,0 +1,11 @@
+# project_myeks.yaml
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+ 
+metadata:
+  name: project-myeks
+  region: ap-northeast-2
+  version: "1.22"
+ 
+# AZ
+availabilityZones: ["ap-northeast-2a", "ap-northeast-2b",  "ap-northeast-2c"]
