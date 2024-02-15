@@ -43,7 +43,7 @@ managedNodeGroups:
     ssh:
       allow: true
       publicKeyPath: /var/lib/jenkins/.ssh.pub
-    availabilityZones: ["ap-northeast-2a"]
+    availabilityZones: ["ap-northeast-2a", "ap-northeast-2b",  "ap-northeast-2c"]
     iam:
       withAddonPolicies:
         autoScaler: true
